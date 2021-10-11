@@ -1,0 +1,161 @@
+*{
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lexend Deca', sans-serif;
+	max-width: 100%;
+}
+body{
+	font-size: 15px;
+	background:#0a0c1b; 
+}
+
+h1{
+ font-family: 'Inter', sans-serif;
+ font-weight: 400;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+}
+
+.card{
+	width: 340px;
+	height: 700px;
+    background-color: #1c1938;
+    box-shadow: 1px 1px 1px #1c1938;
+    margin: 25px;
+    border-radius: 10px;
+}
+.background-card,img{
+  height:240px ;
+  border-radius: 10px 10px 0 0;
+  background:  #9c208c;
+  width: 100%;
+  opacity: 60%;
+  filter: brightness(100%) saturate(150%) ;
+}
+
+.informa h1{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: #fdfdff;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 250px; 
+}
+.informa h1 .light{
+	color: #b26ae7;
+
+}
+
+.info p{
+	max-width: 285px;
+	padding: 20px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: normal;
+	color: #fff;
+	margin-left: 30px;
+	line-height: 25px;
+}
+
+.social{
+	flex: 1;
+	text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.forte{
+    display: block;
+	flex-wrap: nowrap;
+	color: #fff;
+	font-size: 1rem;
+    font-weight: 700;
+    padding: 10px;
+}
+.item {
+	margin: 5px;
+}
+
+
+
+@media screen and (min-width: 960px) {
+   .container{
+	display: flex;
+	justify-content: center;
+	margin-top: 55px;
+}
+
+  .card{
+	width: 1000px;
+	height:370px;
+    background-color: #1c1938;
+    box-shadow: 1px 1px 1px #1c1938;
+    margin-top: 55px;
+    border-radius: 10px;
+}
+ 
+ .background-card{
+  position: relative;
+  float: right;
+  height: 370px;
+  width: 500px;
+  border-radius:0 10px  10px 0;
+  background:  #9c208c;
+  opacity: 60%;
+  filter: brightness(100%) saturate(150%) ;
+
+}
+
+img{
+	float: right;
+    width:500px ;
+    height:370px;
+   border-radius: 0 10px 10px 0;
+ }
+
+ .informa h1{
+ 	font-size: 2.1rem;
+ 	width: 360px;
+ 	margin: 50px 30px 20px 40px;
+ }
+
+ .informa .info p{
+ 	font-size: 15px;
+ 	max-width: 350px;
+    padding: 0;
+    margin-left: 55px; 
+	line-height: 25px;
+	text-align: left;
+ }
+
+.caixa{
+  display: flex;
+  text-align: left;
+  padding: 5px; 
+  margin: 10px;
+}
+
+.item{
+    flex: 1;
+	text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+}
+
+.social{
+	margin: 30px 30px 20px 20px;
+}
+
+
+
+}
